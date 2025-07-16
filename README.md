@@ -27,6 +27,26 @@ Integrated with **AWS S3** for image uploads, **MongoDB** for data storage, and 
 
 ---
 
+## 🔐 Environment Variables (.env or application.properties)
+
+Create a `.env` or `application.properties` file and add the following:
+
+```env
+
+# 📧 Forgot Password - Mail Credentials
+SPRING_MAIL_USERNAME=your_email@example.com
+SPRING_MAIL_PASSWORD=your_email_password
+
+# 💳 Razorpay Configuration
+RAZORPAY_KEY=your_razorpay_key
+RAZORPAY_SECRET=your_razorpay_secret
+
+# ☁️ AWS S3 Configuration
+AWS_ACCESS_KEY=your_aws_access_key
+AWS_SECRET_KEY=your_aws_secret_key
+
+--------
+
 ## 📦 Installation
 
 ```bash
