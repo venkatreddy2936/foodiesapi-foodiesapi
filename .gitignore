@@ -1,0 +1,66 @@
+# ───🔐 Secrets & Config Files ────────────────────────────
+.env
+application.properties
+application.yml
+
+# ───📦 Build Artifacts ───────────────────────────────────
+/target/
+/build/
+/dist/
+
+# ───📁 IDE Specific ──────────────────────────────────────
+
+# IntelliJ IDEA
+.idea/cd
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / Spring Tool Suite (STS)
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ───📂 Node Modules (React Frontend) ─────────────────────
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ───🗂 OS System Files ───────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ───🔒 Logs ──────────────────────────────────────────────
+*.log
+
+# ───🔄 Lock Files (Optional) ─────────────────────────────
+package-lock.json
+yarn.lock
+
+# ───🔥 Ignore Maven Wrapper JAR ──────────────────────────
+.mvn/wrapper/maven-wrapper.jar
+
+# ───✅ Allow build folders inside src (optional) ─────────
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ───🔍 IntelliJ Generated Metadata ───────────────────────
+*.bak
+*.swp
